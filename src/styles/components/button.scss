@@ -1,0 +1,17 @@
+.button {
+    font: 700 var(--font-size-p) var(--font-secondary);
+    text-transform: uppercase;
+    color: var(--color-black);
+    background-color: var(--color-primary);
+    padding: var(--spacing-xs) var(--spacing-sm);
+    border-radius: 10%/50%;
+    transition-duration: 0.3s;
+
+    &:hover {
+        color: var(--color-white);
+        padding: var(--spacing-xs) var(--spacing-lg);
+        border-radius: 5%/50%;
+        text-decoration: none;
+        transition-duration: 0.3s;
+    }
+}

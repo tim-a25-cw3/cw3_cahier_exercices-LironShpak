@@ -1,0 +1,14 @@
+.section {
+    padding: var(--spacing-lg) 0;
+
+    h2 {
+        margin: 0;
+        font-size: var(--font-size-h3);
+        font-weight: 300;
+        padding-bottom: var(--spacing-lg);
+
+        span {
+            opacity: 55%;
+        }
+    }
+}
